@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
+
+// cấu hình như này sau vd muốn import thì nó sẽ như này: import App from '~/App', phân biệt với
+// import thư viện
+
+// nhưng việc create-react-app nó 0 tự động nạp file này vào cấu hình webpack đâu, vì vậy
+// cần config cấu hình webpack như trong file config-overrides.js
