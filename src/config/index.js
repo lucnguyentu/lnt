@@ -1,4 +1,4 @@
-import routes from './route';
+import routes from './routes';
 
 const config = {
     routes,
